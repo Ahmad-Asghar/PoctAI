@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../views/chat_bot.dart';
+import '../views/chatbot_screen.dart';
 import '../views/on_boarding_screen.dart';
 
 class Routes {

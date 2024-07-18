@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
-
 import 'common/app_colors.dart';
 import 'common/app_routes.dart';
 
@@ -19,7 +18,7 @@ class MyApp extends StatelessWidget {
       SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.dark.copyWith(statusBarColor:Colors.transparent));
       return GetMaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Chat Bot',
+        title: 'PoctAI',
         initialRoute: '/',
         routes: Routes.routes,
         theme: ThemeData(

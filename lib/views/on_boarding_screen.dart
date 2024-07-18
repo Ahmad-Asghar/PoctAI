@@ -1,4 +1,4 @@
-import 'package:ai_chatbot/views/chat_bot.dart';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
@@ -6,6 +6,7 @@ import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'package:svg_flutter/svg.dart';
 import '../common/app_colors.dart';
 import '../common/widgets/app_text_widget.dart';
+import 'chatbot_screen.dart';
 class OnBoardingScreen extends StatelessWidget {
   const OnBoardingScreen({super.key});
 
